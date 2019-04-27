@@ -25,7 +25,7 @@ class GamesTableViewController: UITableViewController {
     
     func loadGames(){
         
-        if let url = Bundle.main.url(forResource: "console", withExtension: "json"){
+        if let url = Bundle.main.url(forResource: "consoles", withExtension: "json"){
             //url.absoluteString
             
             do{
